@@ -1,14 +1,5 @@
-export const createSortElement = () => {
-  return `<div class="trip-main__trip-controls  trip-controls">
-        <div class="trip-controls__navigation">
-          <h2 class="visually-hidden">Switch trip view</h2>
-          <nav class="trip-controls__trip-tabs  trip-tabs">
-            <a class="trip-tabs__btn  trip-tabs__btn--active" href="#">Table</a>
-            <a class="trip-tabs__btn" href="#">Stats</a>
-          </nav>
-        </div>
-
-        <div class="trip-controls__filters">
+export const createFilterTemplate = () => {
+  return `<div class="trip-controls__filters">
           <h2 class="visually-hidden">Filter events</h2>
           <form class="trip-filters" action="#" method="get">
             <div class="trip-filters__filter">
@@ -28,11 +19,5 @@ export const createSortElement = () => {
 
             <button class="visually-hidden" type="submit">Accept filter</button>
           </form>
-        </div>
-      </div>
-
-<main class="page-body__page-main  page-main">
-  <div class="page-body__container">
-    <section class="trip-events">
-      <h2 class="visually-hidden">Trip events</h2>`;
+        </div>`;
 };
