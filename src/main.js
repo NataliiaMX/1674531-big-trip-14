@@ -15,8 +15,12 @@ const eventElement = document.querySelector('.trip-events');
 const tripMainElement = document.querySelector('.trip-main');
 const tripEventsElement = document.querySelector('.trip-events');
 
+for (let i = 0; i < 4; i++) {
+  render(eventElement, createEventTemplate());
+}
+
+
 render(siteHeaderElement, createRouteInfoTemplate());
-render(eventElement, createEventTemplate());
 render(siteHeaderElement, createSiteMenuTemplate());
 render(siteHeaderElement, createFilterTemplate());
 render(tripMainElement, createTripCostTemplate());
