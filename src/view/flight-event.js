@@ -39,4 +39,4 @@ export const createFlightEvent = () => {
                 <span class="visually-hidden">Open event</span>
               </button>
             </div>`;
-}
+};

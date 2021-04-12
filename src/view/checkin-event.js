@@ -34,4 +34,4 @@ export const createCheckinEvent = () => {
                 <span class="visually-hidden">Open event</span>
               </button>
             </div>`;
-}
+};

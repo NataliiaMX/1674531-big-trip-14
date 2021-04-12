@@ -34,4 +34,4 @@ export const createDriveEvent = () => {
                 <span class="visually-hidden">Open event</span>
               </button>
             </div>`;
-}
+};
